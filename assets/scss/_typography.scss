@@ -1,0 +1,7 @@
+@use './variables' as v;
+
+h1 {
+  font-size: 5em;
+  font-family: v.$font;
+  color: v.$text;
+}
