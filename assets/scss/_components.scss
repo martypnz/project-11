@@ -1,9 +1,11 @@
 @use './variables' as v;
 
-figure{
+header{
+    height: 100px;
     background-color: v.$brand;
-    padding: 20px;
-    margin-bottom: 30px;
-    display: inline-block;
 }
 
+.myform-fieldset{
+    padding: 40px;
+    margin: 10px;
+}
